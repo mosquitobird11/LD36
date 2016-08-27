@@ -20,6 +20,9 @@
   <width>16</width>
   <height>32</height>
   <frames>
-    <frame index="0">images\spr_ch_base_down_0.png</frame>
+    <frame index="0">images\spr_c_main_walk_up_0.png</frame>
+    <frame index="1">images\spr_c_main_walk_up_1.png</frame>
+    <frame index="2">images\spr_c_main_walk_up_2.png</frame>
+    <frame index="3">images\spr_c_main_walk_up_3.png</frame>
   </frames>
 </sprite>

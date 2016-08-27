@@ -8,5 +8,8 @@ var dir = argument0;
 
 //Make sure that character is not walking already
 if (!self.isWalking){
-    s_begin_walk(dir);
+    //check for collisions before you begin to walk
+    if (!s_check_collision(dir)){
+        s_begin_walk(dir);
+    }
 }

@@ -11,7 +11,7 @@ self.isWalking = true;
 //Set the sprite
 self.sprite_index = asset_get_index("spr_c_"+self.name+"_walk_"+dir);
 self.image_index = 0;
-self.image_speed = 0.25;
+self.image_speed = 0.5;
 
 //Set the target destination for grid walking
 if (dir == "down"){

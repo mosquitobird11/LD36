@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\music_theme</sound>
+    <sound>sound\snd_menu_blip</sound>
+    <sound>sound\snd_menu_select</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_c_main_walk_down</sprite>
     <sprite>sprites\spr_c_main_down</sprite>
@@ -14,6 +18,11 @@
     <sprite>sprites\spr_c_main_right</sprite>
     <sprite>sprites\spr_c_main_walk_left</sprite>
     <sprite>sprites\spr_c_main_left</sprite>
+    <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_no_right</sprite>
+    <sprite>sprites\spr_no_left</sprite>
+    <sprite>sprites\spr_no_up</sprite>
+    <sprite>sprites\spr_no_down</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_32</background>
@@ -25,9 +34,15 @@
     <script>scripts\s_check_walk.gml</script>
     <script>scripts\s_begin_walk.gml</script>
     <script>scripts\s_rotate_character.gml</script>
+    <script>scripts\s_check_collision.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <object>objects\obj_block</object>
+    <object>objects\obj_no_right</object>
+    <object>objects\obj_no_up</object>
+    <object>objects\obj_no_left</object>
+    <object>objects\obj_no_down</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

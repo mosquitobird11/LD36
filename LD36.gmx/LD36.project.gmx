@@ -27,6 +27,7 @@
   <backgrounds name="background">
     <background>background\tile_32</background>
     <background>background\tile_16</background>
+    <background>background\tile_pillars</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
